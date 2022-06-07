@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "tf_bucket1" {
+resource "aws_s3_bucket" "tf_bucket2" {
   bucket = "eknath-dev-bucket-terraform"
   acl    = "public-read"
   policy = jsonencode({
